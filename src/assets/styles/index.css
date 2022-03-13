@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --main-purple-findally: #540e87;
+  --main-yellow-findally: #f5cc00;
+  --main-orange-findally: #feae3b;
+  
+    /* Colors: */
+    --color-morado:#540E87A6;
+    --color-morado-medio: #6A448B;
+    --color-morado-oscuro: #463371;
+    --color-azul: #212156;
+    --color-amarillo: #FF982A;
+    --color-blanco: #FFFFFF;
+    --color-text-gris:#707070;
+    --color-gris-ligth : #EAEAEA;
+    --color-gris-medio: #464545;
+    --color-negro: #000000;
+
+    
+    /* Font/text values */
+    --font-raleway: 'Raleway';
+    --font-primary: 'Poppins';
+    --font-ubuntu:'Ubuntu';
+    --font-segundary:'Helvetica';
+    --font-weight-bold: bold;
+    --font-weight-normal: normal;
+    --font-size-regular: 14px;
+    --font-size-minimo:12px;
+    --font-size-item:16px;
+    --font-size-item-grande:18px;
+    --font-size-cuerpo: 18px;
+    --font-size-titulo-segundario: 26px;
+    --font-size-titulo: 32px;
+    --character-spacing-0: 0px;
+    --line-spacing-38: 38px;
+    --line-spacing-46: 46px;
+    --line-spacing-59: 59px;
+    --line-spacing-94: 94px; 
+    }
+    
+
+* {
+  box-sizing: border-box;
+}
+.button{
+  background: #f9b3b3;
+  padding:.1rem .5rem;
+  min-width: 100px;
+  margin: 20px 0px;
+  border: 1px solid #3900e5;
+  border-radius: 15px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+button {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: fit-content;
+  color: inherit;
+}
+.security-space{
+  margin: 1rem;
+}
+
+.security-space-min{
+  margin: .5rem 0rem;
+}
+
+.input{
+  background: #ffffff00;
+  color: #a7a3a3;
+  width: 70%;
+  font-size: medium;
+  border: none;
+  border-bottom: 2px solid ;
+  border-color: black;
+  outline-style: none;
+  box-sizing: border-box;
+}
