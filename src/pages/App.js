@@ -1,7 +1,13 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Pokedex from "../components/Pokedex";
+
 function App() {
   return (
     <>
-      <h1>HI</h1>
+      <Header />
+      <Pokedex />
+      <Footer />
     </>
   );
 }

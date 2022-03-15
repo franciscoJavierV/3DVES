@@ -1,0 +1,13 @@
+.container__small{
+    text-align: center;
+}
+.container__small-tittle{
+    padding: .4rem;
+    -webkit-box-shadow: 0px 2px 10px 0px #7070701A;
+    -moz-box-shadow: 0px 2px 10px 0px #7070701A;
+    box-shadow: 0px 2px 10px 0px #7070701A;
+}
+
+.container__small-type{
+    margin-right: 1rem;
+}
