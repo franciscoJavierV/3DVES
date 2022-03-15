@@ -1,11 +1,15 @@
 const reducer = (state, action) => {
   switch (action.type) {
-    case "SET-ERROR":
+    case "SET-POKEMON-DATA":
       return {
         ...state,
-        error: action.payload,
+        pokemon: action.payload,
       };
-
+    case "SET-ACTUAL-POKEMON":
+      return {
+        ...state,
+        actualPokemon: action.payload,
+      };
     default:
       return state;
   }
